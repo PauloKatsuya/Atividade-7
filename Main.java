@@ -21,11 +21,11 @@ class Bicicleta extends Veiculo {
 public class Main {
     public static void main(String[] args) {
 
-        Veiculo meuCarro = new Carro();
-        Veiculo minhaBicicleta = new Bicicleta();
+        Veiculo Carrao = new Carro();
+        Veiculo Bike = new Bicicleta();
 
-        meuCarro.mover();       
-        minhaBicicleta.mover();  
+        Carrao.mover();       
+        Bike.mover();  
     }
 }
 
